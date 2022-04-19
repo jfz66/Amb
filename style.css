@@ -1,0 +1,36 @@
+h1 {
+    color: #a2b5ff;
+}
+h2 {
+    color: blueviolet;
+}
+
+h2:hover {
+    color: red;
+}
+
+img {
+    width: 100px;
+    transition: 1s;
+    /* animation: changeOpacity 4s infinite; */
+}
+/* 
+img:hover {
+    width: 500px;
+    opacity: 0;
+} */
+#ball {
+    position: relative;
+}
+
+@keyframes changeOpacity {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
